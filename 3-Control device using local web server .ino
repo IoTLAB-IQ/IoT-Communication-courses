@@ -109,7 +109,7 @@ String SendHTML(uint8_t led1stat,uint8_t led2stat){
   ptr +="</head>\n";
   ptr +="<body>\n";
   ptr +="<h1>welcome to control your device (^ _ ^) </h1>\n";
-  ptr +="<h3>degin by : kareem ghazi</h3>\n";
+  ptr +="<h3>desgin by : kareem ghazi</h3>\n";
   
    if(led1stat)
   {ptr +="<p>LED1 Status: OFF</p><a class=\"button button-off\" href=\"/led1off\">ON</a>\n";}
